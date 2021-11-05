@@ -1,34 +1,18 @@
-# `ethereum-boilerplate`
 
-> React components and hooks for fast building dApps without running own backend
 
-This boilerplate is built on [react-moralis](https://github.com/MoralisWeb3/react-moralis) and [Moralis](https://moralis.io/). Also has its own context provider for quick access to `chainId` or `ethAddress`
-
-There are many components in this boilerplate that do not require an active web3 provider, they use Moralis Web3 API. Moralis supports the most popular blockchains and their test networks. You can find a list of all available networks in [Moralis Supported Chains](https://docs.moralis.io/moralis-server/web3-sdk/intro#supported-chains)
-
-Please check the [official documentation of Moralis](https://docs.moralis.io/#user) for all the functionalities of Moralis.
-
-![dapp](https://user-images.githubusercontent.com/78314301/139577351-7f58bcf8-8f54-443b-881f-89526d4aaafa.gif)
-
-# ⭐️ `Star us`
-If this boilerplate helps you build Ethereum dapps faster - please star this project, every star makes us very happy!
 
 # 🚀 Quick Start
 
-📄 Clone or fork `ethereum-boilerplate`:
+📄 Clone or fork `cryptomate`:
 ```sh
-git clone https://github.com/ethereum-boilerplate/ethereum-boilerplate.git
+https://github.com/az-journal/cryptomate.git
 ```
 💿 Install all dependencies:
 ```sh
-cd ethereum-boilerplate
+cd cryptomate
 yarn install 
 ```
-✏ Provide your appId and serverUrl from [Moralis](https://moralis.io/) ([How to start Moralis Server](https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server)) to `<MoralisProvider>` in `src/index.js`:
-```jsx
-<MoralisProvider appId={APP_ID} serverUrl={SERVER_URL}>
-  <App />
-</MoralisProvider>
+
 ```
 🚴‍♂️ Run your App:
 ```sh
